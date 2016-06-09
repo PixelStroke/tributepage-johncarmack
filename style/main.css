@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(360deg, black, #0b0b0b);
+    background-image: url('http://www.roadtovr.com/wp-content/uploads/2015/08/carmack-connect-1-featured.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+footer {
+    height: 50px;
+    color: #fff;
+    background-color: #0f0f0f;
+    font-size: 1.2em;
+    padding: 20px 0 0 0;
+}
+
+.showcase {
+    background: gray;
+    background: url('https://i.ytimg.com/vi/KSZ4tSoumNk/maxresdefault.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid #000;
+}
+
+.showcase img {
+    width: 100%;   
+    height: 100%;
+}
+
+.navbar-brand {
+    height: 100px;
+    padding-top: 45px;
+    font-size: 1.9em;
+}
+
+.navbar-custom {
+    height: 100px;
+    background: #000000;
+    opacity: 1;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom-color: #000;
+}
+
+.navbar-custom li:hover {
+    background-color: #b93200 !important;
+}
+
+.navbar-custom a {
+    background: none !important;
+    color: #e1ffeb;
+}
+
+.navbar-custom h1 {
+    display: inline;
+}
+
+.navbar-custom ul {
+    display: inline;
+}
+
+.navbar-custom ul li {
+    font-size: 1.9em;
+    height: 100px;
+    padding-top: 25px;    
+}
+
+.active {
+    background-color: #b95500;
+}
+
+.bio {
+    background: linear-gradient(10deg,rgb(235, 235, 235),rgb(255, 255, 255));
+    color: #000;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.bio-body p {
+    font-size: 1.4em;
+}
+
+.bio img {
+    width: 100%;
+}
+
+.bio .portrait {
+    padding: 20px;
+}
+
+.bio .portrait h1 {
+    font-size: 1.5em;
+    
+}
+
+.tint {
+    z-index: 2;
+    background: linear-gradient(10deg,#2c0f36,#966ab1);
+    background-color: #be0e0e;
+    opacity: 1;
+    background-color: blue;
+}
+
+.slides img {
+    z-index: 1;
+    opacity: .5;
+    width: 100%;
+}
+
+#slideOne, #slideTwo, #slideThree, #slideFour, #slideFive, #slideSix {
+    height: 300px;
+}
