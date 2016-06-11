@@ -118,7 +118,6 @@ footer {
 .bio {
     background: linear-gradient(10deg,rgb(235, 235, 235),rgb(255, 255, 255));
     color: #000;
-    margin-top: 20px;
     padding: 40px;
 }
 
@@ -178,6 +177,10 @@ footer {
 
 .profile-pic-xs {
     display: none;
+}
+
+.remove-padding {
+    padding: 0;
 }
 
 @media (min-width: 1440px) {
