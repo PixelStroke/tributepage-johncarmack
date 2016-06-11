@@ -59,8 +59,9 @@ footer {
 }
 
 .showcase-three {
-    border-top: 1px solid #df59ff;
+    border-top: 2.5px solid #4b3650;
 }
+
 .feature {
     color: #fff;    
     overflow-y: hidden;
@@ -140,20 +141,23 @@ footer {
 
 .tint {
     z-index: 2;
-    background: linear-gradient(10deg,#2c0f36,#966ab1);
-    background-color: #be0e0e;
-    opacity: 1;
+    background: linear-gradient(10deg,rgb(9, 4, 11),rgb(69, 56, 78));
     background-color: blue;
+}
+
+.slides {
+    background: #231a23;
 }
 
 .slides img {
     z-index: 1;
-    opacity: .5;
+    opacity: 0.8;
     width: 100%;
 }
 
 .img-item {
-    height: 340px;        
+    height: 340px;
+    overflow-y: hidden;
 }
 
 #slideOne, #slideTwo, #slideThree, #slideFour, #slideFive, #slideSix {
@@ -164,15 +168,26 @@ footer {
     overflow-y: hidden;
 }
 
-#slideOne-subText {
-    background-color: #cb3691;
+#slideOne-subText, #slideTwo-subText, #slideThree-subText, #slideFour-subText, #slideFive-subText, #slideSix-subText {
+    background-color: #171318;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.52),rgb(69, 43, 49));
     color: #fff;
-    opacity: .5;
     height: inherit;
+    padding: 15px;
 }
 
 .profile-pic-xs {
     display: none;
+}
+
+@media (min-width: 1440px) {
+    #slideOne, #slideTwo, #slideThree, #slideFour, #slideFive, #slideSix {
+        height: 480px;
+    }
+    
+    .img-item {
+        height: 480px
+    }
 }
 
 @media (max-width: 1025px) {
