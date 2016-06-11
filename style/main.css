@@ -8,7 +8,7 @@ body {
     margin: 0 !important;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     overflow-y: hidden;
 }
 
@@ -160,10 +160,20 @@ footer {
     height: 340px;
 }
 
+#slideOne, #slideTwo, #slideThree, #slideFour, #slideFive, #slideSix img {
+    overflow-y: hidden;
+}
+
+#slideOne-subText {
+    background-color: #cb3691;
+    color: #fff;
+    opacity: .5;
+    height: inherit;
+}
+
 .profile-pic-xs {
     display: none;
 }
-
 
 @media (max-width: 1025px) {
     #showcase-banner {
